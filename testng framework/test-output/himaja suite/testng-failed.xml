@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [himaja suite]" parallel="methods">
+  <parameter name="uname" value="Admin"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="pwd" value="Admin"/>
+  <parameter name="url" value="http://srssprojects.in"/>
+  <test name="himaja test(failed)" parallel="methods">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testng.TestExecution">
+        <methods>
+          <include name="verifyLogin"/>
+          <include name="verifyBranchCreation"/>
+          <include name="verifyBranchSearchClear"/>
+          <include name="verifyLogout"/>
+          <include name="verifyLaunch"/>
+          <include name="verifyBranchSearch"/>
+        </methods>
+      </class> <!-- testng.TestExecution -->
+      <class name="demo.Baseclass">
+        <methods>
+          <include name="classmethod"/>
+          <include name="classmethod"/>
+          <include name="classmethod1"/>
+          <include name="testMethod1"/>
+          <include name="classmethod1"/>
+          <include name="testMethod1"/>
+          <include name="testMethod"/>
+          <include name="testMethod"/>
+        </methods>
+      </class> <!-- demo.Baseclass -->
+    </classes>
+  </test> <!-- himaja test(failed) -->
+</suite> <!-- Failed suite [himaja suite] -->

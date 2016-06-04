@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [tesng suite]" parallel="none">
+  <test name="groups test(failed)" parallel="none">
+    <groups>
+      <run>
+        <include name="role"/>
+        <exclude name="branches"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testng.TestExecution">
+        <methods>
+          <include name="verifyRoleCreation"/>
+        </methods>
+      </class> <!-- testng.TestExecution -->
+    </classes>
+  </test> <!-- groups test(failed) -->
+</suite> <!-- Failed suite [tesng suite] -->

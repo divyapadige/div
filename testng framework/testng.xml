@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="tesng suite" parallel="none">
+	<test name="groups test">
+	    <groups>
+	        <define name="bc">
+	            <include name="branches"></include>
+	            <include name="creation"></include>
+	        </define>
+	        <run>
+	            <include name="bc"></include>
+	        </run>
+	    </groups>
+	    <classes>
+	        <class name="testng.TestExecution"></class>
+	    </classes>
+	</test>
+</suite> <!-- Suite -->

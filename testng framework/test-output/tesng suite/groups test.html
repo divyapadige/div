@@ -1,0 +1,168 @@
+<html>
+<head>
+<title>TestNG:  groups test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>groups test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Apr 15 15:24:10 IST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>29 seconds (29726 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>bc branches creation </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testng.TestExecution.verifyBracnhCreationCancel()'><b>verifyBracnhCreationCancel</b><br>Test class: testng.TestExecution<br/>
+<a href="#Output-457247584" onClick='toggleBox("Output-457247584", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-457247584" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-457247584">
+branch clicked succesfully<br/>
+new branch button clicked succesfully<br/>
+branch details filled succesfully<br/>
+cancel button clicked succesfully<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>testng.TestExecution@7a79be86</td></tr>
+<tr>
+<td title='testng.TestExecution.verifyBracnhCreationReset()'><b>verifyBracnhCreationReset</b><br>Test class: testng.TestExecution<br/>
+<a href="#Output-1408482749" onClick='toggleBox("Output-1408482749", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1408482749" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1408482749">
+branch clicked succesfully<br/>
+new branch button clicked succesfully<br/>
+branch details filled succesfully<br/>
+teset button clicked succesfully<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>testng.TestExecution@7a79be86</td></tr>
+<tr>
+<td title='testng.TestExecution.verifyBranchCreation()'><b>verifyBranchCreation</b><br>Test class: testng.TestExecution<br>Test method: branch creation method which has to be executed within 10 seconds<br/>
+<a href="#Output-2002773113" onClick='toggleBox("Output-2002773113", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2002773113" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2002773113">
+branch clicked succesfully<br/>
+new branch button clicked succesfully<br/>
+branch details filled succesfully<br/>
+branch submit clicked succesfully<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>testng.TestExecution@7a79be86</td></tr>
+<tr>
+<td title='testng.TestExecution.verifyBranchSearch()'><b>verifyBranchSearch</b><br>Test class: testng.TestExecution<br/>
+<a href="#Output-455501890" onClick='toggleBox("Output-455501890", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-455501890" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-455501890">
+branches clikced successfully<br/>
+branches serach details filled successfully<br/>
+search button clikced successfully<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>testng.TestExecution@7a79be86</td></tr>
+<tr>
+<td title='testng.TestExecution.verifyEmployeeCreation()'><b>verifyEmployeeCreation</b><br>Test class: testng.TestExecution<br/>
+<a href="#Output-837659261" onClick='toggleBox("Output-837659261", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-837659261" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-837659261">
+employee clicked succesfully<br/>
+new employee clicked succesfully<br/>
+employee details filled succesfully<br/>
+employee submit clicked succesfully<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>testng.TestExecution@7a79be86</td></tr>
+<tr>
+<td title='testng.TestExecution.verifyRoleCreation()'><b>verifyRoleCreation</b><br>Test class: testng.TestExecution<br/>
+<a href="#Output-1081769770" onClick='toggleBox("Output-1081769770", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1081769770" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1081769770">
+roles clicked succesfully<br/>
+new role clicked succesfully<br/>
+role details filled succesfully<br/>
+role submit clicked succesfully<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>testng.TestExecution@7a79be86</td></tr>
+</table><p>
+</body>
+</html>
